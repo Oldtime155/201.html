@@ -2,21 +2,121 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="resume.css">
+		<script>
+			function visitPage(){
+				window.location='https://en.wikipedia.org/wiki/Olympic_weightlifting';
+			}
+		</script>
 	</head>
+	<div id="left"></div>
+	<div id="right"></div>
+	<div id="top"></div>
+	<div id="bottom"></div>
 	<body>
 		<h1>
-			Hi! I'm Brendan Huber
+			Hi! I'm <br>Brendan Huber
 		</h1>
-		<p>
+		<p id="infoHeader">
+			2231 N. Almond, Mesa, AZ 85213<br>
+			Cell: (602)-459-1797  -  Email: b.hubernation@gmail.com 
+		</p>
+		<div id="picHover">
+			<ul>
+				<li><a href="#"><br><img src="Me.jpg" alt="My picture" style="width:410px;height:432px;"></a>
+				
+				</li>
+			</ul>
+			
+		</div>
+		<p class="extraInfo">
 			I am Majoring in Computer Science, Minoring in English, 
 			and I want to change the way people see the world
 		</p>
-		<button class="learnMore">
-		Learn more
+		<h2 class="extraInfo">Some of My Qualifications:
+		</h2>
+		<div id="listHover">
+			<ul>
+				<li>
+					<a href="#">Installed and configured Mac OS, Linux, Window 7, 8 and 10</a>
+                </li>
+				<li>
+					<a href="#">Built Computers from the ground up (experience installing drivers)</a>
+				</li>
+				<li>
+					<a href="#">Computer networking and software installation experience</a>
+                </li>
+				<li>
+					<a href="#">Experience Powershell scripting to solve problems for large quantities of Computers</a>
+				</li>
+				<li>
+					<a href="#">Accounts Receivable, Accounts Payable and Payroll experience</a>
+				</li>
+				<li>
+					<a href="#">Customer Service experience</a> 
+				</li>
+				<li>
+					<a href="#">Experience training other employees</a>
+				</li>
+            </ul>
+		</div>
+		<h2 class="extraInfo">Places I Have Worked:
+		</h2>
+		<div id="listHover">
+			<ul>
+				<li>
+					<a href="#">08/12 - Current Harold B. Lee Library IT: Desktop Engineer/ Scripter</a> 
+				</li>
+				<li>
+					<a href="#">04/12 - 07/12   Vivint (Provo, UT): Tech Support</a>
+                </li>
+				<li>
+					<a href="#">08/10 - 04/12  Huber Barney & Arnold PLLC  (Gilbert, AZ): Legal Assistant</a>
+				</li>
+				<li>
+					<a href="#">02/08 - 07/08     Scrapbook.com  (Mesa, AZ): Shipping and Recieving</a>
+                </li>
+				<li>
+					<a href="#">06/07 - 08/07     Mr. Rogers Pool Maintenance  (Mesa, AZ): Pool Maintenance</a>
+				</li>
+				<li>
+					<a href="#">02/05 - 07/08     Steve's Krazy Sub  (Mesa, AZ): Shift Manager/ Trainer</a>
+				</li>
+            </ul>
+		</div>
+		<h2 class="extraInfo">My Education so Far:
+		</h2>
+		<div id="listHover">
+			<ul>
+				<li>
+					<a href="#">Mountain View High School  (Mesa, AZ - Graduated 2007)</a>
+                </li>
+				<li>
+					<a href="#">Mesa Community College  (Mesa, AZ - Attended 2007, 2010-2011)</a>
+				</li>
+				<li>
+					<a href="#">Brigham Young University  (Provo, UT - 2012 to Current)</a>
+                </li>
+            </ul>
+		</div>
+		<h2 class="extraInfo">Service and Interests:
+		</h2>
+		<div id="listHover">
+			<ul>
+				<li>
+					<a href="#">Boy Scouts of America (Eagle Scout)</a>
+                </li>
+				<li>
+					<a href="#">Missionary for the Church of Jesus Christ of Latter Day Saints (Eugene, OR 2008 - 2010)</a>
+				</li>
+				<li>
+					<a href="#">Olympic Style Weight Lifting National Level Competitor (2014 and 2015)</a>
+                </li>
+            </ul>
+		</div>
+		<h2 class="extraInfo">Use the big blue button to find out more about olympic lifting!
+		</h2>
+		<button class="learnMore" onclick="visitPage();">
+		Click Here!
 		</button>
-		<h2>Ecperience
-		</h2>
-		<h2>Service and interests
-		</h2>
 	</body>
 </html>
